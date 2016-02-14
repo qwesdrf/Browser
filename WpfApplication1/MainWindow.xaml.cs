@@ -24,10 +24,7 @@ namespace WpfApplication2
         }
 
         public string Search { get; set; }
-        public List<string> Searchs { get; set; } = new List<string>()
-        {
-            "test"
-        };
+        public List<string> Searchs { get; set; } = new List<string>();
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {

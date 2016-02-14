@@ -12,3 +12,6 @@ C:\Users\Елена\Desktop\Учёба\Прога\WindowsFormsApplication1\WpfAp
 C:\Users\Елена\Desktop\Учёба\Прога\WindowsFormsApplication1\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
 C:\Users\Елена\Desktop\Учёба\Прога\WindowsFormsApplication1\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
 C:\Users\Елена\Desktop\Учёба\Прога\WindowsFormsApplication1\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Елена\Desktop\Учёба\Прога\Browser\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Елена\Desktop\Учёба\Прога\Browser\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Елена\Desktop\Учёба\Прога\Browser\WpfApplication1\obj\Debug\WpfApplication1.pdb

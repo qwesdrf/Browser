@@ -19,7 +19,7 @@ namespace WpfApplication1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            WebBrowser.Navigate("http://" + TextBox.Text);
+            WebBrowser.Navigate("http://" + AddressBar.Text);
         }
 
         public string Search { get; set; }
@@ -29,7 +29,7 @@ namespace WpfApplication1
         {
             if (e.Key == Key.Enter)
             {
-                WebBrowser.Navigate("http://" + Search + TextBox1.Text);
+                WebBrowser.Navigate("http://" + Search + SearchBox.Text);
             }
         }
         
@@ -37,8 +37,8 @@ namespace WpfApplication1
         {
             if (e.Key == Key.Enter)
             {
-                string correct = TextBox.Text.Replace("www.", "");
-                correct = TextBox.Text.Replace("http://", "");
+                string correct = AddressBar.Text.Replace("www.", "");
+                correct = AddressBar.Text.Replace("http://", "");
                 correct = correct.Insert(0, "http://");
                 WebBrowser.Navigate(correct);
             }
@@ -52,8 +52,8 @@ namespace WpfApplication1
                 ComboBox.ItemsSource = Searchs;
                 TextBox2.Text = "";
             }
-            
         }
+        //fsdf
 
         private void button1_Click_1(object sender, RoutedEventArgs e)
         {
@@ -75,7 +75,7 @@ namespace WpfApplication1
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
-            WebBrowser.Navigate("http://"+ComboBox.Text+TextBox1.Text);
+            WebBrowser.Navigate("http://"+ComboBox.Text+SearchBox.Text);
         }
     }
 }

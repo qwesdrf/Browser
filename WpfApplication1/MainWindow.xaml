@@ -6,13 +6,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="513.158" Width="1086.967">
     <Grid>
-        <Button x:Name="Button" Content="Вперед" 
+        <Button x:Name="AddressButton" Content="Перейти" 
                 Width="Auto" HorizontalAlignment="Left" Margin="189,4,0,0" VerticalAlignment="Top" Click="button_Click"/>
-        <TextBox x:Name="TextBox" 
+        <TextBox x:Name="AddressBar" 
                  HorizontalAlignment="Left" Margin="10,4,0,0" Height="23" Width="174" TextWrapping="Wrap" VerticalAlignment="Top"
                  KeyDown="textBox_KeyDown"/>
-        <TextBox x:Name="TextBox1" 
-                 HorizontalAlignment="Left" Margin="240,2,0,0" Height="23" Width="75" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF170000" FontStyle="Italic" KeyDown="textBox1_KeyDown"/>
+        <TextBox x:Name="SearchBox" 
+                 HorizontalAlignment="Left" Margin="255,3,0,0" Height="23" Width="75" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF170000" FontStyle="Italic" KeyDown="textBox1_KeyDown"/>
         <TextBox x:Name="TextBox2"
                  HorizontalAlignment="Left" Margin="493,3,0,0" Height="23" Width="120" TextWrapping="Wrap" VerticalAlignment="Top"
                  KeyDown="textBox2_KeyDown"
@@ -29,8 +29,8 @@
         <Button x:Name="Button2" Content="Сохранить"  
                 HorizontalAlignment="Left" Height="20" Margin="944,4,0,0" VerticalAlignment="Top" Width="110" Click="button2_Click"/>
         <WebBrowser x:Name="WebBrowser" 
-                    Margin="0,38,0,0"/>
-        <Button x:Name="button" Content="Поиск" HorizontalAlignment="Left" Margin="320,0,0,453" Width="55" Click="button_Click_1" Height="22" VerticalAlignment="Bottom"/>
+                    Margin="0,72,0,0"/>
+        <Button x:Name="SearchButton" Content="Поиск" HorizontalAlignment="Left" Margin="335,0,0,453" Width="55" Click="button_Click_1" Height="22" VerticalAlignment="Bottom" RenderTransformOrigin="0.491,-0.364"/>
     </Grid>
 
 
